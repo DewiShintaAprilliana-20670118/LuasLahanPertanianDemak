@@ -1,0 +1,126 @@
+var size = 0;
+var placement = 'point';
+function categories_datakecamatan_0(feature, value, size, resolution, labelText,
+                       labelFont, labelFill) {
+                switch(value.toString()) {case 'Bonang':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(213,254,228,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Demak':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(197,243,213,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Dempet':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(181,232,199,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Gajah':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(165,221,184,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Guntur':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(139,210,184,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Karang Tengah':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(109,199,189,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Karanganyar':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(80,188,194,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Karangawen':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(62,174,194,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Mijen':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(55,157,191,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Monosalam':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(49,140,187,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Mranggen':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(43,121,181,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Sayung':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(41,98,170,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case 'Wedung':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(39,75,159,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+default:
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(37,52,148,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;}};
+
+var style_datakecamatan_0 = function(feature, resolution){
+    var context = {
+        feature: feature,
+        variables: {}
+    };
+    var value = feature.get("Kecamatan");
+    var labelText = "";
+    size = 0;
+    var labelFont = "12.025px \'Arial Black\', sans-serif";
+    var labelFill = "rgba(0, 0, 0, 1)";
+    var textAlign = "left";
+    var offsetX = 8;
+    var offsetY = 3;
+    var placement = 'point';
+    if (feature.get("Kecamatan") !== null) {
+        labelText = String(feature.get("Kecamatan"));
+    }
+    
+var style = categories_datakecamatan_0(feature, value, size, resolution, labelText,
+                          labelFont, labelFill);
+
+    return style;
+};
